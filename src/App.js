@@ -2,7 +2,7 @@ import QrCodeCard from './components/qrCodeCard';
 
 function App() {
   return (
-    <div className="bg-hslLightGrey w-screen h-screen flex justify-center items-center">
+    <div className="flex items-center justify-center min-h-screen">
       <QrCodeCard />
     </div>
   );
